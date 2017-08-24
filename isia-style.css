@@ -9,6 +9,7 @@
   -webkit-overflow-scrolling: auto;
   overflow-y: auto;
   padding: 0px !important;
+  z-index: 9999;
 }
 .modal-loader {
   height: 100%;
@@ -16,7 +17,14 @@
   display: -webkit-flex;
   align-items: center;
   justify-content: center;
-  color: white;
+  color: #ffd777;
+  font-size: 5em;
+}
+.modal-content {
+  border: none;
+  border-radius: 0px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
 }
 .preview  p {
   position: absolute;
@@ -37,8 +45,5 @@
   .modal-dialog {
     width: 100% !important;
     margin: 0px !important;
-  }
-  .modal-dialog .row{
-    margin: 0px;
   }
 }
