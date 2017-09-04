@@ -2232,7 +2232,7 @@ label {
 @media (max-width:768px) {
     #sidebar,
     .header {
-        position: absolute
+        position: fixed
     }
     #sidebar>ul>li>a,
     #sidebar>ul>li>a>span {
