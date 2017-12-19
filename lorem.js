@@ -1,3 +1,4 @@
+console.time('lorem');
 function rem() {
     $("[data-lorem]").empty();
     var e = document.querySelectorAll("[data-lorem]");
@@ -58,3 +59,4 @@ var Lorem;
         return null == e ? t : void 0
     }
 }();
+console.timeEnd('lorem');
