@@ -31,7 +31,7 @@ var Script = function() {
         }), $("#sidebar > ul").show(), $("#sidebar").css({
             "margin-left": "0"
         }), $("#container").removeClass("sidebar-closed"))
-    }), $("#sidebar").niceScroll({
+    })/*, $("#sidebar").niceScroll({
         styler: "fb",
         cursorcolor: "#4ECDC4",
         cursorwidth: "3",
@@ -48,6 +48,6 @@ var Script = function() {
         spacebarenabled: !1,
         cursorborder: "",
         zindex: "1000"
-    }), $(".tooltips").tooltip(), $(".popovers").popover()
+    })*/, $(".tooltips").tooltip(), $(".popovers").popover()
 }();
 console.timeEnd('commons');
