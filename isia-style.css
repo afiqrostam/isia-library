@@ -3,7 +3,9 @@
 }
 .header {
   position: fixed !important;
-}
+  left: 0 !important;
+  right: 0 !important;
+  z-index: 1039 !important;
 #photo-result {
   left: -3000px;
   position: fixed;
