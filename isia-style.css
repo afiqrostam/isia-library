@@ -1,6 +1,9 @@
 #sitenotification {
   font-size: 1.15em;
 }
+.header {
+  position: fixed !important;
+}
 #photo-result {
   left: -3000px;
   position: fixed;
