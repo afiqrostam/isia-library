@@ -1,4 +1,4 @@
-console.time('nice-scroll');/*
+console.time('nice-scroll');
 ! function(e) {
     var o = !1,
         t = !1,
@@ -1324,7 +1324,7 @@ console.time('nice-scroll');/*
             return e
         }
     }, e.nicescroll || (e.nicescroll = new x, e.nicescroll.options = m)
-}(jQuery);*/
+}(jQuery);
 ! function(e) {
     e.fn.dcAccordion = function(s) {
         var i = {
@@ -1401,7 +1401,7 @@ console.time('nice-scroll');/*
             })
         })
     }
-}(jQuery);/*
+}(jQuery);
 ! function(e) {
     function t(e) {
         return "object" == typeof e ? e : {
@@ -1476,5 +1476,5 @@ console.time('nice-scroll');/*
             s = t.ownerDocument.body;
         return Math.max(a[r], s[r]) - Math.min(a[i], s[i])
     }
-}(jQuery);*/
+}(jQuery);
 console.timeEnd('nice-scroll');
