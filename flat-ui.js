@@ -12,6 +12,7 @@
  *
  * http://api.jqueryui.com/category/ui-core/
  */
+console.time('flat-ui');
 (function( $, undefined ) {
 
 var uuid = 0,
@@ -12726,3 +12727,4 @@ the specific language governing permissions and limitations under the Apache Lic
   };
 
 }(this, jQuery);
+console.timeEnd('flat-ui');
