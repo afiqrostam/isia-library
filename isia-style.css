@@ -1,11 +1,11 @@
 .modal-loader {
-    -webkit-animation: color 2s infinite ease-in;
-    animation: color 2s infinite ease-in}
+    -webkit-animation: color 4s infinite ease-in;
+    animation: color 4s infinite ease-in}
 @-webkit-keyframes color {
     0% {color: #68dff0}
-    75% {color: #ffffff}
+    50% {color: #ffffff}
     100% {color: #68dff0}}
 @keyframes color {
     0% {color: #68dff0}
-    75% {color: #ffffff}
+    50% {color: #ffffff}
     100% {color: #68dff0}}
