@@ -763,12 +763,12 @@ label { font-weight: 400 }
 
 @media (max-width: 768px) {
   .modal-dialog { width: 100%; }
-  .site-min-height { min-height: calc(100vh - 120px) }
+  .site-min-height { min-height: calc(100vh - 90px) }
   .modal-dialog,
   .modal-footer,
   .modal-header,
   .modal-body,
   .modal-dialog .row {margin: 0px;}
-  .modal-body { min-height: calc(100vh - 120px) }
+  .modal-body { min-height: calc(100vh - 90px) }
   .modal-footer,
   .modal-header {  min-height: 60px }}
