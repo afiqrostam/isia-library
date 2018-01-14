@@ -720,6 +720,7 @@ label { font-weight: 400 }
     .img-responsive { width: 100% }}
 
 @media (max-width:480px) {
+    .site-min-height { min-height: 720px }
     .dont-show,
     .notify-row,
     .search { display: none }
@@ -732,6 +733,7 @@ label { font-weight: 400 }
         border-color: #ccc }}
 
 @media (max-width:320px) {
+    .site-min-height { min-height: 480px }
     .dont-show,
     .notify-row,
     .search { display: none }
@@ -762,8 +764,7 @@ label { font-weight: 400 }
   box-shadow: none; }
 
 @media (max-width: 768px) {
-  .modal-dialog { width: 100%; }
-  .site-min-height { min-height: calc(100vh - 100px) }
+  .modal-dialog { width: 100% }
   .modal-dialog,
   .modal-footer,
   .modal-header,
