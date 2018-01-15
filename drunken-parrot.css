@@ -434,7 +434,7 @@ label { font-weight: 400 }
     -webkit-border-radius: 50% }
 .go-top i { color: #2A3542 }
 .site-min-height { min-height: 900px }
-.form-loader { min-height: 400px }
+.form-loader { min-height: 300px }
 
 @media (max-width:768px) {
     #sidebar,
@@ -513,4 +513,5 @@ label { font-weight: 400 }
   .modal-dialog .row {margin: 0px;}
   .modal-body {min-height: calc(100vh - 120px);}
   .modal-footer,
-  .modal-header {  min-height: 60px }}
+  .modal-header {  min-height: 60px }
+  .form-loader { min-height: calc(100vh - 200px) }}
