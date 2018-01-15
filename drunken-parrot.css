@@ -488,7 +488,7 @@ label { font-weight: 400 }
   -webkit-overflow-scrolling: auto;
   overflow-y: auto;
   padding: 0px !important; }
-.modal-loader {
+.modal-loader, .form-loader {
   display: flex;
   display: -webkit-flex;
   align-items: center;
