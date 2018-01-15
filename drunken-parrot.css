@@ -434,6 +434,7 @@ label { font-weight: 400 }
     -webkit-border-radius: 50% }
 .go-top i { color: #2A3542 }
 .site-min-height { min-height: 900px }
+.form-loader { min-height: 400px }
 
 @media (max-width:768px) {
     #sidebar,
