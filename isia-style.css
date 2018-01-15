@@ -1,4 +1,4 @@
-.modal-loader {
+.modal-loader, .form-loader {
     -webkit-animation: color 3s infinite ease-in;
     animation: color 3s infinite ease-in }
 @-webkit-keyframes color {
