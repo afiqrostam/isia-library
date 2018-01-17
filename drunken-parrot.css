@@ -270,7 +270,9 @@ a.logo span { color: #68dff0 }
     line-height: 60px;
     height: 60px;
     margin: 0;
-    background: #ff865c }
+    background: #ff865c;
+    cursor:  pointer;
+    }
 .ds i {
     font-size: 12px;
     line-height: 16px }
