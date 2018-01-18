@@ -278,9 +278,8 @@ a.logo span { color: #68dff0 }
 .ds .desc {
     border-bottom: 1px solid #eaeaea;
     display: inline-block;
-    padding: 15px 0;
-    width: 100%;
-    }
+    padding: 15px;
+    width: 100% }
 .ds .block {
     width: 150px;
     float: right;
