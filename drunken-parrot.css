@@ -283,8 +283,10 @@ a.logo span { color: #68dff0 }
     width: 100%;
     cursor:pointer }
 .ds .block {
-    min-width: 150px;
-    float: right }
+    width: 150px;
+    float: right;
+    padding: 0 10px;
+    }
 .ds .desc:hover { background: #f2f2f2 }
 .ds .thumb {
     width: 30px;
@@ -293,9 +295,8 @@ a.logo span { color: #68dff0 }
     float: left }
 .ds .details {
     max-width: 100%;
-    float: left;
-    }
-.ds>.desc p { font-size: 11px }
+    float: left }
+.ds>.desc p {font-size: inherit }
 .ds p>muted {
     font-size: 9px;
     text-transform: uppercase;
@@ -489,7 +490,9 @@ label { font-weight: 400 }
     .dcjq-icon { top: 10px }
     ul.sidebar-menu li ul.sub li a { padding: 0 }
     .img-responsive { width: 100% }
-    .ds .block { width: 100% }}
+    .ds .block { 
+      width: 100%;
+      padding: 5px }}
         
 #sitenotification { font-size: 1em; }
 .modal {
