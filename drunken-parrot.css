@@ -271,7 +271,6 @@ a.logo span { color: #68dff0 }
     height: 60px;
     margin: 0;
     background: #ff865c;
-    cursor:  pointer;
     }
 .ds i {
     font-size: 12px;
@@ -281,7 +280,7 @@ a.logo span { color: #68dff0 }
     display: inline-block;
     padding: 15px 0;
     width: 100%;
-    cursor:pointer }
+    }
 .ds .block {
     width: 150px;
     float: right;
