@@ -15,4 +15,7 @@
     margin-bottom: 15px;
     box-shadow: 0px 3px 2px #aab2bd }
 .pointer { cursor:pointer }
-.btn-blank{ opacity: 0;filter: alpha(opacity=0) }
+.btn-blank{ 
+    opacity: 0;
+    filter: alpha(opacity=0);
+    cursor: default }
