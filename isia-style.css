@@ -19,3 +19,12 @@
     opacity: 0;
     filter: alpha(opacity=0);
     cursor: default }
+.ui-autocomplete{
+  font-family:inherit;
+  padding: 5px;
+  font-size:0.9em }
+.data-search {
+    margin: 2px;
+    padding: 2px 5px;
+    font-size: 0.9em;
+    display: inline-block }
