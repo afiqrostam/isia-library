@@ -22,9 +22,10 @@
 .ui-autocomplete{
   font-family:inherit;
   padding: 5px;
-  font-size:0.9em }
+  font-size:1em }
 .data-search {
     margin: 2px;
     padding: 2px 5px;
     font-size: 0.9em;
     display: inline-block }
+.ui-front { z-index: 2000 }
