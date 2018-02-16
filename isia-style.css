@@ -29,3 +29,27 @@
     font-size: 0.9em;
     display: inline-block }
 .ui-front { z-index: 2000 }
+textarea {
+    width: 100% !important;
+    overflow-y: hidden !important;
+    resize: none !important }
+.photo-empty {
+    padding-top: 40%;
+    font-size: 1.5em;
+    text-align: center;
+    max-width: 500px;
+    min-height: 450px }
+div.contra{ 
+    border-radius: 6px;
+    padding: 10px }
+.contra{ background-color: #f3f3f3 }
+button.photo-nav { margin: 2px }
+@media (max-width: 767px) { 
+    .img-responsive { 
+        width: 100%;
+        max-width: 500px }
+    div.contra{ border-radius: 0px }}
+@media screen and (max-width: 500px) and (min-width: 401px) {
+    .photo-empty { min-height: 400px }}
+@media screen and (max-width: 400px) {
+    .photo-empty { min-height: 300px }}
