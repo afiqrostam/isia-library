@@ -1,4 +1,4 @@
-.modal-loader, .form-loader {
+.modal-loader, .form-loader, .photo-loader {
     -webkit-animation: color 3s infinite ease-in;
     animation: color 3s infinite ease-in }
 @-webkit-keyframes color {
@@ -39,17 +39,25 @@ textarea {
     text-align: center;
     max-width: 500px;
     min-height: 450px }
-div.contra{ 
+.photo-loader {
+    text-align: center;
+    max-width: 500px;
+    min-height: 450px;
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 5em; }
+div.contra, .photo-loader{ 
     border-radius: 6px;
     padding: 10px }
-.contra{ background-color: #f3f3f3 }
+.contra, .photo-loader{ background-color: #f3f3f3 }
 button.photo-nav { margin: 2px }
 @media (max-width: 767px) { 
     .img-responsive { 
         width: 100%;
         max-width: 500px }
-    div.contra{ border-radius: 0px }}
-@media screen and (max-width: 500px) and (min-width: 401px) {
-    .photo-empty { min-height: 400px }}
-@media screen and (max-width: 400px) {
-    .photo-empty { min-height: 300px }}
+    div.contra, .photo-loader { border-radius: 0px }}
+@media screen and (max-width: 500px) and (min-width: 401px) { .photo-empty, .photo-loader { min-height: 400px }}
+@media screen and (max-width: 400px) { .photo-empty, .photo-loader { min-height: 300px }}
