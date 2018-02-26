@@ -102,9 +102,9 @@ hr {
     margin-bottom: 20px;
     border: 0;
     border-top: 1px solid #797979 }
-.centered { text-align: center }
-.goleft { text-align: left }
-.goright { text-align: right }
+.centered { text-align: center !important}
+.goleft { text-align: left !important}
+.goright { text-align: right !important}
 .box0 p,
 .box1,
 .box1 h3,
