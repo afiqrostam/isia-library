@@ -30,7 +30,7 @@
     display: inline-block }
 .ui-front { z-index: 2000 }
 .box0.selected{
-  background-color:#f3bc65;
+  background-color:#3eb5ac;
   margin:10px;
   border-radius:10px }
 .box0.selected>.box1{
