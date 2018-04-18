@@ -31,12 +31,9 @@
 .ui-front { z-index: 2000 }
 .box0.selected{
   background-color:#f3bc65;
-  color:white !important;
+  margin:10px;
   border-radius:10px }
 .box0.selected>.box1{
-  color:white;
-  border: none }
-.box0.selected>.box1:hover{
   color:white;
   border: none }
 textarea {
