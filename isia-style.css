@@ -29,6 +29,16 @@
     font-size: 0.9em;
     display: inline-block }
 .ui-front { z-index: 2000 }
+.box0.selected{
+  background-color:#f3bc65;
+  color:white !important;
+  border-radius:10px }
+.box0.selected>.box1{
+  color:white;
+  border: none }
+.box0.selected>.box1:hover{
+  color:white;
+  border: none }
 textarea {
     width: 100% !important;
     overflow-y: hidden !important;
