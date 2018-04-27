@@ -10,7 +10,6 @@ body {
 ::selection { color: #fff }
 .modal-header,
 ::selection {background: #68dff0;}
-ul li { list-style: none }
 a,
 a:focus,
 a:hover {
